@@ -62,9 +62,9 @@
         <form>
             <p class="alert alert-warning otazka">1. Jaká postava byla posledně vydána to hry?</p>
             <div class="form-group row">
-                <label for="listina" class="col-md-2 col-form-label">Poslední postava</label>
+                <label for="posp" class="col-md-2 col-form-label">Poslední postava</label>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" name="listina" id="listina"
+                    <input type="text" class="form-control" name="posp" id="posp"
                         placeholder="Napište celé jméno postavy">
                 </div>
             </div>
@@ -74,9 +74,9 @@
             <hr>
             <p class="alert alert-warning otazka">2. Kolik zlaťáků stojí léčivý lektvar?</p>
             <div class="form-group row">
-                <label for="univerzita" class="col-md-2 col-form-label">Cena lektvaru</label>
+                <label for="elik" class="col-md-2 col-form-label">Cena lektvaru</label>
                 <div class="col-md-2">
-                    <input type="number" class="form-control" name="univerzita" id="univerzita" value="200"
+                    <input type="number" class="form-control" name="elik" id="elik" value="200"
                         title="Zadejte správnou cenu">
                 </div>
             </div>
@@ -88,9 +88,9 @@
             <p class="alert alert-warning otazka">3. Na jakou postavu kupujeme především předměty pro mágy?
             </p>
             <div class="form-group row">
-                <label for="kral" class="col-md-2 col-form-label">Postava(mág)</label>
+                <label for="postava" class="col-md-2 col-form-label">Postava(mág)</label>
                 <div class="col-md-10">
-                    <select class="form-control" name="kral" id="kral">
+                    <select class="form-control" name="postava" id="Postava">
                         <option>Garen</option>
                         <option>Zed</option>
                         <option selected>Sion</option>
@@ -106,7 +106,7 @@
             <hr>
             <p class="alert alert-warning otazka">4. Vyberte pouze mýtické předměty.</p>
             <div class="form-group row">
-                <label for="prezident" class="col-md-3 col-form-label">Mýtické předměty</label>
+                <label for="předměty" class="col-md-3 col-form-label">Mýtické předměty</label>
                 <div class="col-md-9">
                     <div class="form-check form-check-inline">
                         <label class="form-check-label">
@@ -121,12 +121,12 @@
                     </div>
                     <div class="form-check form-check-inline">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="long sword" id="long sword" value="Long sword"> Long sword
+                            <input class="form-check-input" type="checkbox" name="long sword" id="long sword" value="long sword"> Long sword
                         </label>
                     </div>
                     <div class="form-check form-check-inline">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="riftmaker" id="riftmaker" value="Riftmaker"> Riftmaker
+                            <input class="form-check-input" type="checkbox" name="riftmaker" id="riftmaker" value="riftmaker"> Riftmaker
                         </label>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
             <hr>
             <p class="alert alert-warning otazka">5. Vyberte v jaké minutě se zrodí poskoci poprvé.</p>
             <div class="form-group row">
-                <label for="bitva" class="col-md-3 col-form-label">Zrození poskoků</label>
+                <label for="poskoci" class="col-md-3 col-form-label">Zrození poskoků</label>
                 <div class="col-md-9">
                     <div class="form-check form-check-inline">
                         <label class="form-check-label">
@@ -175,9 +175,9 @@
             <hr>
             <p class="alert alert-warning otazka">Vypište jména všech draků ve hře.</p>
             <div class="form-group row">
-                <label for="bitva" class="col-md-2 col-form-label">Draci ve hře</label>
+                <label for="Draci" class="col-md-2 col-form-label">Draci ve hře</label>
                 <div class="col-md-10">
-                    <textarea class="form-control" name="hymna" id="hymna" rows="5"></textarea>
+                    <textarea class="form-control" name="draci" id="draci" rows="5"></textarea>
                 </div>
             </div>
             <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved6">Ocean dragon, Infernal dragon, Cloud dragon, Mountain dragon, Elder dragon
